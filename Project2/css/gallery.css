@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+li {
+    list-style: none;
+    width: 30%;
+    height: 50%;
+    background-color: aliceblue;
+    margin-top: 40px; 
+    border: 3px solid rgba(176, 174, 174, 0.516);  
+    box-shadow: 10px 5px 5px rgba(3, 2, 2, 0.587);   
+    
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h2 {
+    margin: 15px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p{
+    margin: 20px 20px;    
+    text-align: justify;
+}
+
+button {
+    padding: 15px 35px;
+    width: 90%;
+    background-color: rgb(154, 146, 146);
+    margin:15px 13px;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
